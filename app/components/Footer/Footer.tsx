@@ -14,7 +14,7 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <ul className="flex gap-4">
+            <ul className="flex gap-4 mb-4 md:mb-0">
               <a
                 href="#hero"
                 className="hover:text-purple-700 transition duration-200"

@@ -37,7 +37,7 @@ const data = [
 
 const About = () => {
   return (
-    <div className="mx-auto min-h-screen max-w-screen-2xl flex flex-col gap-24 items-center">
+    <div className="mx-auto max-w-screen-2xl flex flex-col gap-24 items-center">
       <div className="max-w-screen-xl w-full text-left">
         <h2 className="text-5xl font-bold sm:px-0 px-4">
           Dlaczego warto nas wybrać?
