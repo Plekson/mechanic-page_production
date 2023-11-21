@@ -9,7 +9,7 @@ const Navbar = () => {
           <img src="logowhite.png" />
         </div>
         <div className="flex gap-8 items-center">
-          <ul className="flex gap-4">
+          <ul className="gap-4 sm:flex hidden">
             <a
               href="#about"
               className="hover:text-purple-700 transition duration-200"
@@ -29,8 +29,9 @@ const Navbar = () => {
               <li>Opinie</li>
             </a>
           </ul>
-
-          <CTA link="" text="Kontakt" />
+          <div className="sm:block hidden">
+            <CTA link="" text="Kontakt" />
+          </div>
         </div>
       </nav>
     </header>

@@ -37,12 +37,14 @@ const data = [
 
 const About = () => {
   return (
-    <div className="mx-auto max-h-screen max-w-screen-2xl flex flex-col gap-24 items-center">
+    <div className="mx-auto min-h-screen max-w-screen-2xl flex flex-col gap-24 items-center">
       <div className="max-w-screen-xl w-full text-left">
-        <h2 className="text-5xl font-bold">Dlaczego warto nas wybrać?</h2>
+        <h2 className="text-5xl font-bold sm:px-0 px-4">
+          Dlaczego warto nas wybrać?
+        </h2>
       </div>
 
-      <div className="flex gap-8">
+      <div className="flex sm:flex-row flex-col gap-8">
         {data.map((feature) => (
           <AboutCard key={feature.id} feature={feature} />
         ))}
