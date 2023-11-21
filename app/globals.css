@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-align: start;
+  scroll-padding-top: 100px; /* Ustawia przewijanie płynne z dodatkowym przesunięciem 100px od góry */
+}

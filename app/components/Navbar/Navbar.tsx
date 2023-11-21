@@ -9,16 +9,25 @@ const Navbar = () => {
           <img src="logowhite.png" />
         </div>
         <div className="flex gap-8 items-center">
-          <ul className="flex gap-8">
-            <li className="hover:text-purple-700 cursor-pointer duration-200">
-              O nas
-            </li>
-            <li className="hover:text-purple-700 cursor-pointer duration-200">
-              Usługi
-            </li>
-            <li className="hover:text-purple-700 cursor-pointer duration-200">
-              Opinie
-            </li>
+          <ul className="flex gap-4">
+            <a
+              href="#about"
+              className="hover:text-purple-700 transition duration-200"
+            >
+              <li>O nas</li>
+            </a>
+            <a
+              href="#services"
+              className="hover:text-purple-700 transition duration-200"
+            >
+              <li>Usługi</li>
+            </a>
+            <a
+              href="#testimonials"
+              className="hover:text-purple-700 transition duration-200"
+            >
+              <li>Opinie</li>
+            </a>
           </ul>
 
           <CTA link="" text="Kontakt" />
