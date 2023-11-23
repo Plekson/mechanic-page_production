@@ -33,7 +33,7 @@ const Navbar = () => {
     <header className="bg-black/60 backdrop-blur-sm fixed w-full text-white z-10 2xl:px-0 px-4">
       <nav className="max-h-16 flex justify-between items-center max-w-screen-xl mx-auto py-4">
         <div className="max-h-[80px]">
-          <img src="logowhite.png" />
+          <img src="logowhite.png" alt="logo" />
         </div>
         <img
           src="hamburger.svg"
@@ -52,24 +52,32 @@ const Navbar = () => {
           ref={navigationRef}
         >
           <ul className="flex sm:flex-row flex-col gap-4">
-            <a
-              href="#about"
-              className="hover:text-purple-700 transition duration-200"
-            >
-              <li onClick={() => setIsOpen(false)}>O nas</li>
-            </a>
-            <a
-              href="#services"
-              className="hover:text-purple-700 transition duration-200"
-            >
-              <li onClick={() => setIsOpen(false)}>Usługi</li>
-            </a>
-            <a
-              href="#testimonials"
-              className="hover:text-purple-700 transition duration-200"
-            >
-              <li onClick={() => setIsOpen(false)}>Opinie</li>
-            </a>
+            <li onClick={() => setIsOpen(false)}>
+              <a
+                href="#about"
+                className="hover:text-purple-700 transition duration-200"
+              >
+                O nas
+              </a>
+            </li>
+
+            <li onClick={() => setIsOpen(false)}>
+              <a
+                href="#services"
+                className="hover:text-purple-700 transition duration-200"
+              >
+                Usługi
+              </a>
+            </li>
+
+            <li onClick={() => setIsOpen(false)}>
+              <a
+                href="#testimonials"
+                className="hover:text-purple-700 transition duration-200"
+              >
+                Opinie
+              </a>
+            </li>
           </ul>
           <div onClick={() => setIsOpen(false)}>
             <CTA link="#contact" text="Kontakt" />

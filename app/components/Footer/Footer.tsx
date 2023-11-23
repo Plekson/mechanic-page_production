@@ -15,30 +15,41 @@ const Footer = () => {
           </div>
           <div>
             <ul className="flex gap-4 mb-4 md:mb-0">
-              <a
-                href="#hero"
-                className="hover:text-purple-700 transition duration-200"
-              >
-                <li>Strona główna</li>
-              </a>
-              <a
-                href="#about"
-                className="hover:text-purple-700 transition duration-200"
-              >
-                <li>O nas</li>
-              </a>
-              <a
-                href="#services"
-                className="hover:text-purple-700 transition duration-200"
-              >
-                <li>Usługi</li>
-              </a>
-              <a
-                href="#testimonials"
-                className="hover:text-purple-700 transition duration-200"
-              >
-                <li>Opinie</li>
-              </a>
+              <li>
+                <a
+                  href="#hero"
+                  className="hover:text-purple-700 transition duration-200"
+                >
+                  Strona główna
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#about"
+                  className="hover:text-purple-700 transition duration-200"
+                >
+                  O nas
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#services"
+                  className="hover:text-purple-700 transition duration-200"
+                >
+                  Usługi
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#testimonials"
+                  className="hover:text-purple-700 transition duration-200"
+                >
+                  Opinie
+                </a>
+              </li>
             </ul>
           </div>
           <div>
