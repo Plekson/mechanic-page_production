@@ -21,12 +21,12 @@ const opinions = [
 
 const Testimonials = () => {
   return (
-    <div className="bg-gray-200 py-24 sm:px-0 px-4">
+    <div className="bg-gray-200 py-24 2xl:px-0 px-4">
       <div className="mx-auto max-h-screen max-w-screen-2xl flex flex-col gap-24 items-center">
         <div className="max-w-screen-xl w-full text-left">
           <h2 className="text-5xl font-bold">Co mówią o nas klienci?</h2>
         </div>
-        <div className="flex sm:flex-row flex-col gap-8">
+        <div className="flex lg:flex-row flex-col gap-8">
           {opinions.map((opinion) => (
             <Opinions key={opinion.id} testimonial={opinion} />
           ))}

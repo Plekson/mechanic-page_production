@@ -25,7 +25,9 @@ const AboutCard = (props: Props) => {
         <h3 className="text-3xl">{feature.title}</h3>
       </div>
       <div>
-        <p className="text-xl text-center">{feature.description}</p>
+        <p className="text-xl sm:text-center text-justify">
+          {feature.description}
+        </p>
       </div>
     </div>
   );

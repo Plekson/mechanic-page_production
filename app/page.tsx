@@ -8,6 +8,8 @@ import Testimonials from "./components/Testimonials/Testimonials";
 import FAQ from "./components/FAQ/FAQ";
 import Footer from "./components/Footer/Footer";
 import Copyright from "./components/Copyright/Copyright";
+import Contact from "./components/Contact/Contact";
+import Statistics from "./components/Statistics/Statistics";
 
 export default function Home() {
   return (
@@ -35,6 +37,14 @@ export default function Home() {
 
       <section>
         <FAQ />
+      </section>
+
+      <section>
+        <Statistics />
+      </section>
+
+      <section id="contact">
+        <Contact />
       </section>
 
       <section>

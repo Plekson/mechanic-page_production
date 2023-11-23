@@ -4,10 +4,10 @@ const Footer = () => {
   return (
     <>
       <footer className="bg-black py-24 text-white">
-        <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between items-center">
+        <div className="max-w-screen-xl mx-auto flex flex-col xl:flex-row justify-between items-center gap-8 px-4">
           <div className="mb-4 md:mb-0">
             <img src="logowhite.png" alt="logo" />
-            <div className="md:pl-16">
+            <div className="xl:pl-16">
               <p className="text-lg font-bold">Serwis samochodowy</p>
               <p>Adres: [adres]</p>
               <p>Telefon: [telefon]</p>

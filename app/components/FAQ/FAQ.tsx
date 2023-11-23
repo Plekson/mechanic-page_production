@@ -23,7 +23,7 @@ const questions = [
 
 const FAQ = () => {
   return (
-    <div className="mx-auto max-h-screen max-w-screen-2xl flex flex-col gap-24 items-center sm:px-0 px-4">
+    <div className="mx-auto max-h-screen max-w-screen-2xl flex flex-col gap-24 items-center 2xl:px-0 px-4">
       <div className="max-w-screen-xl w-full text-left">
         <h2 className="text-5xl font-bold">Często zadawane pytania</h2>
       </div>

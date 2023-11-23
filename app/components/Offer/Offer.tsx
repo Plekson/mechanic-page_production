@@ -4,33 +4,33 @@ import OfferCard from "../OfferCard/OfferCard";
 const services = [
   {
     id: 1,
-    image: "diagnostyka.jpg",
+    image: "images/diagnostyka.webp",
     text: "Diagnostyka",
   },
   {
     id: 2,
-    image: "olej.jpg",
+    image: "images/olej.webp",
     text: "Wymiana oleju i filtrów",
   },
   {
     id: 3,
-    image: "hamulce.jpg",
+    image: "images/hamulce.webp",
     text: "Naprawa hamulców",
   },
   {
     id: 4,
-    image: "silnik.jpg",
+    image: "images/silnik.webp",
     text: "Naprawa silnika",
   },
 ];
 
 const Offer = () => {
   return (
-    <div className="mx-auto min-h-screen max-w-screen-2xl flex flex-col gap-24 items-center">
+    <div className="mx-auto max-w-screen-2xl flex flex-col gap-24 items-center">
       <div className="max-w-screen-xl w-full text-left">
-        <h2 className="text-5xl font-bold sm:px-0 px-4">Nasza oferta</h2>
+        <h2 className="text-5xl font-bold 2xl:px-0 px-4">Nasza oferta</h2>
       </div>
-      <div className="flex sm:flex-row flex-col gap-8">
+      <div className="flex xl:flex-row flex-col gap-8 items-center">
         {services.map((service) => (
           <OfferCard key={service.id} service={service} />
         ))}

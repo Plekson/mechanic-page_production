@@ -9,7 +9,7 @@ const CTA = (props: Props) => {
   return (
     <a
       href={props.link}
-      className="border py-2 px-4 rounded-full hover:bg-purple-600 border-purple-700 duration-200"
+      className="py-2 px-4 rounded bg-purple-700 hover:bg-gray-500 duration-200 text-white"
     >
       {props.text}
     </a>
