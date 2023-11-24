@@ -7,7 +7,7 @@ const questions = [
   {
     id: 1,
     title: "Jakie rodzaje napraw oferujecie?",
-    text: "Nasze usługi obejmują szeroki zakres napraw mechanicznych i konserwacyjnych, w tym diagnostykę silnika, naprawy układu hamulcowego, wymianę oleju, serwis klimatyzacji, oraz wiele innych.",
+    text: "Nasze usługi obejmują szeroki zakres napraw mechanicznych i konserwacyjnych, w tym diagnostykę silnika, naprawy układu hamulcowego, wymianę oleju, oraz wiele innych.",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const questions = [
   {
     id: 3,
     title: "Gdzie można was znaleźć?",
-    text: "Znajdziesz nas pod adresem [adres warsztatu]. Możesz także skontaktować się telefonicznie: [numer telefonu].",
+    text: "Znajdziesz nas pod adresem Leśna 3, 83-315 Piotrowo. Możesz także skontaktować się telefonicznie: 534-154-103, 537-001-162.",
   },
 ];
 
