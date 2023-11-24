@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="xl:pl-16">
               <p className="text-lg font-bold">Serwis samochodowy</p>
               <p>Adres: Leśna 3, 83-315 Piotrowo</p>
-              <p>Telefon: 537-001-162, 661-100-332</p>
+              <p>Telefon: 534-154-103, 537-001-162, 661-100-332</p>
             </div>
           </div>
           <div>
