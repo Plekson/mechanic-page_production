@@ -9,8 +9,9 @@ config.autoAddCss = false;
 const montserrat = Montserrat({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata: Metadata = {
-  title: "Mechanika samochodowa",
-  description: "Mechanika samochodowa - Lubecki",
+  title: "Mechanika samochodowa - Lubecki",
+  description:
+    "Mechanika samochodowa - Lubecki pomorze gdansk koscierzyna kartuzy somonino zukowo",
 };
 
 export default function RootLayout({
