@@ -12,6 +12,8 @@ export const metadata: Metadata = {
   title: "Mechanika samochodowa - Lubecki",
   description:
     "Mechanika samochodowa - Lubecki pomorze gdansk koscierzyna kartuzy somonino zukowo",
+  keywords:
+    "mechanika, samochodow, auto, serwis, service, pomorskie, pomorze, gdansk, kartuzy, somonino, zukowo, koscierzyna, samochod, naprawa, warsztat, samochodowy",
 };
 
 export default function RootLayout({
