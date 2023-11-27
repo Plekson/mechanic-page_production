@@ -33,7 +33,10 @@ const Navbar = () => {
     <header className="bg-black/60 backdrop-blur-sm fixed w-full text-white z-10 2xl:px-0 px-4">
       <nav className="max-h-16 flex justify-between items-center max-w-screen-xl mx-auto py-4">
         <div className="max-h-[80px]">
-          <img src="logowhite.png" alt="logo" />
+          <img
+            src="logowhite.png"
+            alt="mechanika samochodowa pomorze lubecki"
+          />
         </div>
         <img
           src="hamburger.svg"

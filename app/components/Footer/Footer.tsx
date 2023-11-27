@@ -6,7 +6,10 @@ const Footer = () => {
       <footer className="bg-black py-24 text-white">
         <div className="max-w-screen-xl mx-auto flex flex-col xl:flex-row justify-between items-center gap-8 px-4">
           <div className="mb-4 md:mb-0">
-            <img src="logowhite.png" alt="logo" />
+            <img
+              src="logowhite.png"
+              alt="mechanika samochodowa Lubecki kartuzy somonino gdansk koscierzyna pomorskie"
+            />
             <div className="xl:pl-16">
               <p className="text-lg font-bold">Serwis samochodowy</p>
               <p>Adres: Leśna 3, 83-315 Piotrowo</p>

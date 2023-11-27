@@ -8,11 +8,11 @@ const Profile = () => {
         <h2 className="text-5xl font-bold">Kim jesteśmy?</h2>
         <hr className="w-32 bg-purple-700 border-purple-700" />
         <p className="max-w-4xl sm:text-center text-justify text-xl sm:px-0 px-4">
-          Jesteśmy nowym warsztatem samochodowym, gotowym do zapewnienia
-          kompleksowej obsługi Twojego pojazdu. Nasze podejście opiera się na
-          profesjonalizmie, pasji do motoryzacji i trosce o potrzeby naszych
-          klientów. Zaufaj nam, a dołożymy wszelkich starań, aby Twój samochód
-          działał sprawnie i bezpiecznie na drogach.
+          Jesteśmy nowym warsztatem samochodowym na pomorzu, gotowym do
+          zapewnienia kompleksowej obsługi Twojego pojazdu. Nasze podejście
+          opiera się na profesjonalizmie, pasji do motoryzacji i trosce o
+          potrzeby naszych klientów. Zaufaj nam, a dołożymy wszelkich starań,
+          aby Twój samochód działał sprawnie i bezpiecznie na drogach.
         </p>
         <CTA link="#contact" text="Kontakt" />
       </div>
