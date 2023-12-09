@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     "Mechanika samochodowa - Lubecki pomorze gdansk koscierzyna kartuzy somonino zukowo",
   keywords:
     "mechanika, samochodow, auto, serwis, service, pomorskie, pomorze, gdansk, kartuzy, somonino, zukowo, koscierzyna, samochod, naprawa, warsztat, samochodowy",
+  verification: {
+    google: "e9qkovTwgoN1yxK5DlJKGJpraSUeIc2Zs91Dd_FqI8E",
+  },
 };
 
 export default function RootLayout({
