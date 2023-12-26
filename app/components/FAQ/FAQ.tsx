@@ -17,7 +17,7 @@ const questions = [
   {
     id: 3,
     title: "Gdzie można was znaleźć?",
-    text: "Znajdziesz nas pod adresem Leśna 3, 83-315 Piotrowo. Możesz także skontaktować się telefonicznie: 534-154-103, 537-001-162.",
+    text: "Znajdziesz nas pod adresem Leśna 3, 83-315 Piotrowo. Możesz także skontaktować się telefonicznie: 661-100-332, 537-001-162.",
   },
 ];
 
